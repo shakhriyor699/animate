@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.animate {
+    width: 200px;
+    background: red;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 15px;
+    animation: animateBtn 2s infinite;
+}
+
+
+@keyframes animateBtn {
+    0% {
+        box-shadow: 0 0 0 0 rgb(233, 10, 10);
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(233, 10, 10, 0.1);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgb(233, 10, 10);
+    }
+}
